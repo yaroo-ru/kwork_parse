@@ -9,14 +9,14 @@ from aiogram.filters import Command
 from aiogram.types import FSInputFile
 
 # Токен вашего Telegram бота
-API_TOKEN = '7414208053:AAHIvpanYjxwmWRZK6Fev0F-EjaPM8B9PXg'
+API_TOKEN = ''
 
 # Инициализация бота и диспетчера
 bot = Bot(token=API_TOKEN)
 dp = Dispatcher()
 
 # ID пользователя для отправки результатов (замените на свой ID)
-USER_ID = 5680097082  # Замените на ваш Telegram ID
+USER_ID =   # Замените на ваш Telegram ID
 
 # Функция для настройки драйвера Chrome в headless режиме
 def create_driver():
